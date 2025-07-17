@@ -12,6 +12,7 @@ type ValidationResult = {
   values: Record<string, string>;
 };
 
+// Validates form fields against specified validators
 export function validateForm(fields: Record<string, FieldValidation>): ValidationResult {
   const errors: Record<string, string> = {};
   const values: Record<string, string> = {};

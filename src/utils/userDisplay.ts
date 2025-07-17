@@ -1,5 +1,6 @@
 import { loadUserData } from "./storage.js";
 
+// Retrieves current user and renders to element
 export function renderUsernameToElement(
   targetElement: HTMLElement,
   type: "text" | "value" = "text",

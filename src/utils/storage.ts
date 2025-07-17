@@ -1,7 +1,7 @@
 import { bucketList as defaultList } from "../data/bucketListData.js";
 import { themes as defaultThemes } from "../data/themesData.js";
 
-import { UserData } from "../models/UserData";
+import { UserData } from "../models/UserData.js";
 import { USERNAME_KEY, USER_PREFIX } from "../constants/storageKeys.js";
 
 // Get stored logged in user

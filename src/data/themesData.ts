@@ -1,4 +1,4 @@
-export const themes = [
+export const themes: string[] = [
   "teknikdrömmar",
   "vardagsdrömmar",
   "husdrömmar",
