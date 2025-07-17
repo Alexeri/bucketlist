@@ -1,0 +1,9 @@
+ @import './global.css';
+ @import './page-header.css';
+ @import './form.css';
+
+  h2 {
+     text-align: center;
+     font-weight: 400;
+     margin: var(--spacing-medium);
+ }

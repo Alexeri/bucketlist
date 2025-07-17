@@ -1,0 +1,27 @@
+@import './global.css';
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.splash-logo {
+    animation: pulse 4s infinite ease-in; /* lägg på animation */
+}
+
+/* -- pulsing animation -- */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
